@@ -1,0 +1,36 @@
+/* =============================================
+   BASE
+============================================= */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--navbar-h);
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: #fafaf9;
+  color: #1e293b;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+::selection {
+  background: var(--bs-violet);
+  color: #fff;
+}
+.object-fit-cover {
+  object-fit: cover;
+}
+.py-section {
+  padding: var(--section-py) 0;
+}
+.fw-black {
+  font-weight: 900 !important;
+}
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+img {
+  max-width: 100%;
+}

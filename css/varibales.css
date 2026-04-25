@@ -1,0 +1,30 @@
+/* =============================================
+   CSS VARIABLES
+============================================= */
+:root {
+  --bs-violet: #7c3aed;
+  --bs-violet-dark: #6d28d9;
+  --bs-violet-light: #ede9fe;
+  --bs-violet-200: #ddd6fe;
+  --bs-violet-subtle: #f5f3ff;
+  --bs-purple-dark: #7e22ce;
+  --bs-indigo-dark: #4338ca;
+  --gradient-violet: linear-gradient(135deg, #7c3aed, #9333ea);
+  --gradient-hero: linear-gradient(
+    135deg,
+    rgba(76, 29, 149, 0.88),
+    rgba(88, 28, 135, 0.88)
+  );
+  --gradient-footer: linear-gradient(135deg, #4c1d95, #581c87);
+
+  /* Spacing */
+  --section-py: 60px;
+  --navbar-h: 70px;
+}
+
+@media (min-width: 992px) {
+  :root {
+    --section-py: 100px;
+    --navbar-h: 80px;
+  }
+}
